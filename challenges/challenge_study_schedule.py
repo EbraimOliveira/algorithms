@@ -18,6 +18,5 @@ def study_schedule(permanence_period, target_time):
         return periods(i)
 
     most_common = Counter(time).most_common(1)
-    print('AQUIII', most_common)
-
+    
     return most_common
